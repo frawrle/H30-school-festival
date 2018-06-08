@@ -243,7 +243,7 @@ public class Judge : MonoBehaviour
 
                 case 8://槍投げ
                     Soundquestion();
-                    UI.text = "槍投げ(筑高体操)";
+                    UI.text = "槍投げ";
                     Redb = Instantiate(Redbox, new Vector3(-0.58f, 1.65f, -10), Quaternion.identity) as GameObject;
                     Whiteb = Instantiate(Whitebox, new Vector3(0.126f, 1.214f, -10), Quaternion.identity) as GameObject;
                     rest=rstrTime; yield return new WaitForSeconds(rstrTime);
